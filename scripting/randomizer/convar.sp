@@ -69,7 +69,6 @@ public void ConVar_RandomizeChanged(ConVar convar, const char[] sOldValue, const
 		return;
 	
 	RandomizedType nType = ConVar_GetType(convar);
-	
 	if (!sNewValue[0])	//Empty string
 	{
 		Group_ClearType(nType);
