@@ -33,7 +33,7 @@ void ConVar_Init()
 	
 	ConVar_AddType(RandomizedType_Class, "randomizer_class", "trigger=@all group=@me action=death-kill action=round", "How should class be randomized?");
 	ConVar_AddType(RandomizedType_Weapons, "randomizer_weapons", "trigger=@all group=@me action=death-kill action=round count-primary=1 count-secondary=1 count-melee=1", "How should weapons be randomized?");
-	ConVar_AddType(RandomizedType_Cosmetics, "randomizer_cosmetics", "trigger=@all group=@me action=death-kill action=round count=3 conflicts=1", "How should cosmetics be randomized?");
+	ConVar_AddType(RandomizedType_Cosmetics, "randomizer_cosmetics", "", "How should cosmetics be randomized?");
 	ConVar_AddType(RandomizedType_Rune, "randomizer_rune", "", "How should rune be randomized?");
 	ConVar_AddType(RandomizedType_Spells, "randomizer_spells", "", "How should spells be randomized?");
 }
